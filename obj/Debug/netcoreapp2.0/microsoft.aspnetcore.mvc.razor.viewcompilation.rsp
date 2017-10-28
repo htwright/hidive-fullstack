@@ -1,0 +1,9 @@
+C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2
+--output-path=obj\Debug\netcoreapp2.0\
+--application-name=Quick_Application2
+--content-root=C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2
+--file=C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\Views\Home\Index.cshtml
+--file=C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\Views\Shared\Error.cshtml
+--file=C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\Views\Shared\_Layout.cshtml
+--file=C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\Views\_ViewImports.cshtml
+--file=C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\Views\_ViewStart.cshtml

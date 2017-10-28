@@ -1,0 +1,13 @@
+C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\bin\Debug\netcoreapp2.0\Quick_Application2.deps.json
+C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\bin\Debug\netcoreapp2.0\Quick_Application2.runtimeconfig.json
+C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\bin\Debug\netcoreapp2.0\Quick_Application2.runtimeconfig.dev.json
+C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\bin\Debug\netcoreapp2.0\Quick_Application2.dll
+C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\bin\Debug\netcoreapp2.0\Quick_Application2.pdb
+C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\bin\Debug\netcoreapp2.0\DAL.dll
+C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\bin\Debug\netcoreapp2.0\DAL.pdb
+C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\obj\Debug\netcoreapp2.0\Quick_Application2.csprojResolveAssemblyReference.cache
+C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\obj\Debug\netcoreapp2.0\Quick_Application2.csproj.CoreCompileInputs.cache
+C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\obj\Debug\netcoreapp2.0\Quick_Application2.AssemblyInfoInputs.cache
+C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\obj\Debug\netcoreapp2.0\Quick_Application2.AssemblyInfo.cs
+C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\obj\Debug\netcoreapp2.0\Quick_Application2.dll
+C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\obj\Debug\netcoreapp2.0\Quick_Application2.pdb
