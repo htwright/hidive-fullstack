@@ -66,6 +66,12 @@ import { UserPreferencesComponent } from "./components/controls/user-preferences
 import { UsersManagementComponent } from "./components/controls/users-management.component";
 import { RolesManagementComponent } from "./components/controls/roles-management.component";
 import { RoleEditorComponent } from "./components/controls/role-editor.component";
+import { CarouselComponent } from './components/carousel/carousel.component';
+import { NavmenuComponent } from './components/navmenu/navmenu.component';
+import { HidiveComponent } from './components/hidive/hidive.component'; 
+import { SlickModule } from 'ngx-slick'; 
+
+
 
 
 
@@ -89,15 +95,19 @@ import { RoleEditorComponent } from "./components/controls/role-editor.component
         PopoverModule.forRoot(),
         BsDropdownModule.forRoot(),
         CarouselModule.forRoot(),
-        ModalModule.forRoot(),
+		ModalModule.forRoot(),
+		SlickModule.forRoot(),
         ChartsModule
     ],
-    declarations: [
+	declarations: [
+		CarouselComponent,
+		NavmenuComponent,
+		HidiveComponent,
         AppComponent,
         LoginComponent,
         HomeComponent,
         CustomersComponent,
-        ProductsComponent,
+		ProductsComponent,
         OrdersComponent,
         SettingsComponent,
         UsersManagementComponent, UserInfoComponent, UserPreferencesComponent,

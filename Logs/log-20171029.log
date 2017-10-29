@@ -64,3 +64,550 @@ END" (0723d8ff)
 2017-10-29T17:23:30.5666077-05:00 0HL8V3E415SD2:00000005 [INF] Executed action "hidive_homework.Controllers.HiDiveController.Get (Quick_Application2)" in 1840.8425ms (afa2e885)
 2017-10-29T17:23:30.5683823-05:00 0HL8V3E415SD2:00000005 [INF] Request finished in 1853.7335ms 200 text/plain; charset=utf-8 (791a596a)
 2017-10-29T17:23:32.9943114-05:00 0HL8V3E415SCV:00000004 [INF] Request finished in 14505.6406ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-10-29T17:42:53.6675050-05:00  [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=Quick_Application2 " (9958f5bb)
+2017-10-29T17:42:54.5680676-05:00  [INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T17:42:54.5943758-05:00  [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T17:42:54.5995955-05:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2017-10-29T17:42:54.6217568-05:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2017-10-29T17:42:54.7149012-05:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T17:42:54.7294097-05:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T17:42:55.0940585-05:00 0HL8V3PIJ3MHI:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/   (ca22a1cb)
+2017-10-29T17:42:55.3233277-05:00 0HL8V3PIJ3MHI:00000001 [INF] Executing action method "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T17:42:57.2483305-05:00 0HL8V3PIJ3MHI:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-10-29T17:42:57.5079392-05:00 0HL8V3PIJ3MHI:00000001 [INF] Executed action "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" in 2188.592ms (afa2e885)
+2017-10-29T17:42:57.5157120-05:00 0HL8V3PIJ3MHK:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js?v=kuskVh_pGCN1nyLx9Gk5nq1mKX0qXL-6NA2hMDO8Ciw   (ca22a1cb)
+2017-10-29T17:42:57.5188303-05:00 0HL8V3PIJ3MHI:00000001 [INF] Request finished in 2435.1085ms 200 text/html; charset=utf-8 (791a596a)
+2017-10-29T17:43:03.9976152-05:00  [INF] webpack built f8fc654e84c27c2d51fb in 10746ms (767323f1)
+2017-10-29T17:43:04.1847103-05:00 0HL8V3PIJ3MHK:00000001 [INF] Request finished in 6665.3103ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-10-29T17:43:05.1369651-05:00 0HL8V3PIJ3MHI:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js.map   (ca22a1cb)
+2017-10-29T17:43:05.1406237-05:00 0HL8V3PIJ3MHK:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/__webpack_hmr   (ca22a1cb)
+2017-10-29T17:43:05.4654279-05:00 0HL8V3PIJ3MHI:00000002 [INF] Request finished in 328.3509ms 200 application/json; charset=UTF-8 (791a596a)
+2017-10-29T17:43:05.5165125-05:00 0HL8V3PIJ3MHI:00000003 [INF] Request starting HTTP/1.1 HEAD http://localhost:57737/dist/webpack.config.js   (ca22a1cb)
+2017-10-29T17:43:05.6416293-05:00 0HL8V3PIJ3MHI:00000003 [INF] Request finished in 124.917ms 404  (791a596a)
+2017-10-29T17:43:05.6462467-05:00 0HL8V3PIJ3MHI:00000004 [INF] Request starting HTTP/1.1 HEAD http://localhost:57737/webpack.config.js   (ca22a1cb)
+2017-10-29T17:43:05.6523905-05:00 0HL8V3PIJ3MHI:00000004 [INF] Request finished in 6.8059ms 404  (791a596a)
+2017-10-29T17:43:25.4608569-05:00 0HL8V3PIJ3MHI:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:57737/api/hidive   (ca22a1cb)
+2017-10-29T17:43:25.5123950-05:00 0HL8V3PIJ3MHI:00000005 [INF] Executing action method "hidive_homework.Controllers.HiDiveController.Get (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T17:43:27.2771322-05:00 0HL8V3PIJ3MHI:00000005 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-10-29T17:43:27.2838822-05:00 0HL8V3PIJ3MHI:00000005 [INF] Executed action "hidive_homework.Controllers.HiDiveController.Get (Quick_Application2)" in 1771.6285ms (afa2e885)
+2017-10-29T17:43:27.2871159-05:00 0HL8V3PIJ3MHI:00000005 [INF] Request finished in 1825.1609ms 200 text/plain; charset=utf-8 (791a596a)
+2017-10-29T17:50:08.2220901-05:00  [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=Quick_Application2 " (9958f5bb)
+2017-10-29T17:50:09.5588252-05:00  [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T17:50:09.5806711-05:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T17:50:09.5853489-05:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2017-10-29T17:50:09.6130786-05:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2017-10-29T17:50:09.7274263-05:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T17:50:09.7446902-05:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T17:50:10.1249653-05:00 0HL8V3TK7THD4:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/   (ca22a1cb)
+2017-10-29T17:50:10.3903803-05:00 0HL8V3TK7THD4:00000001 [INF] Executing action method "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T17:50:12.8059670-05:00 0HL8V3TK7THD4:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-10-29T17:50:13.1082711-05:00 0HL8V3TK7THD4:00000001 [INF] Executed action "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" in 2716.4176ms (afa2e885)
+2017-10-29T17:50:13.1195703-05:00 0HL8V3TK7THD5:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js?v=Igf7Xc7w85lTtWAhRvgJCdByv_TM6jhwLujh0R99WHo   (ca22a1cb)
+2017-10-29T17:50:13.1246978-05:00 0HL8V3TK7THD4:00000001 [INF] Request finished in 3014.0281ms 200 text/html; charset=utf-8 (791a596a)
+2017-10-29T17:50:19.8156102-05:00  [INF] webpack built 62691f3df0d2a1d56567 in 12024ms (34b41a57)
+2017-10-29T17:50:19.9291612-05:00  [ERR] Hash: 62691f3df0d2a1d56567
+Version: webpack 3.6.0
+Time: 12024ms
+                               Asset     Size  Chunks                    Chunk Names
+e10af218b941826ea360d7554688d721.png  32.6 kB          [emitted]         
+                      main-client.js  3.27 MB       0  [emitted]  [big]  main-client
+                  main-client.js.map  3.93 MB       0  [emitted]         main-client
+   [1] external "vendor_f3a2d9798b215f50864c" 42 bytes {0} [not cacheable]
+  [47] delegated ./node_modules/bootstrap/dist/js/npm.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [80] multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot.browser.ts 52 bytes {0} [built]
+  [81] delegated ./node_modules/event-source-polyfill/eventsource.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [82] (webpack)-hot-middleware/client.js?path=__webpack_hmr&dynamicPublicPath=true 7.04 kB {0} [built]
+  [83] delegated ./node_modules/webpack/buildin/module.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [84] ./node_modules/querystring-es3/index.js 127 bytes {0} [built]
+  [87] ./node_modules/strip-ansi/index.js 161 bytes {0} [built]
+  [89] (webpack)-hot-middleware/client-overlay.js 1.82 kB {0} [built]
+  [94] (webpack)-hot-middleware/process-update.js 3.87 kB {0} [built]
+  [95] ./ClientApp/boot.browser.ts 1.29 kB {0} [built]
+  [96] delegated ./node_modules/core-js/client/shim.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [97] delegated ./node_modules/web-animations-js/web-animations.min.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [98] ./node_modules/zone.js/dist/zone.js 119 kB {0} [built]
+ [100] ./node_modules/@angular/platform-browser-dynamic/@angular/platform-browser-dynamic.es5.js 5.88 kB {0} [built]
+    + 260 hidden modules
+
+ERROR in [at-loader] ./ClientApp/app/components/app.component.spec.ts:81:20 
+    TS2339: Property 'appTitle' does not exist on type 'AppComponent'. (01a04779)
+2017-10-29T17:50:20.1913903-05:00 0HL8V3TK7THD5:00000001 [INF] Request finished in 7067.0671ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-10-29T17:50:21.0821823-05:00 0HL8V3TK7THD4:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js.map   (ca22a1cb)
+2017-10-29T17:50:21.0877136-05:00 0HL8V3TK7THD5:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/__webpack_hmr   (ca22a1cb)
+2017-10-29T17:50:21.3248374-05:00 0HL8V3TK7THD4:00000002 [INF] Request finished in 243.6614ms 200 application/json; charset=UTF-8 (791a596a)
+2017-10-29T17:50:21.3803938-05:00 0HL8V3TK7THD4:00000003 [INF] Request starting HTTP/1.1 HEAD http://localhost:57737/dist/webpack.config.js   (ca22a1cb)
+2017-10-29T17:50:21.4716933-05:00 0HL8V3TK7THD4:00000003 [INF] Request finished in 91.3296ms 404  (791a596a)
+2017-10-29T17:50:21.4760322-05:00 0HL8V3TK7THD4:00000004 [INF] Request starting HTTP/1.1 HEAD http://localhost:57737/webpack.config.js   (ca22a1cb)
+2017-10-29T17:50:21.5213593-05:00 0HL8V3TK7THD4:00000004 [INF] Request finished in 45.571ms 404  (791a596a)
+2017-10-29T17:59:43.8942223-05:00  [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=Quick_Application2 " (9958f5bb)
+2017-10-29T17:59:44.9507112-05:00  [INF] Executed DbCommand ("25"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T17:59:44.9789671-05:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T17:59:45.0141351-05:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2017-10-29T17:59:45.0437381-05:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2017-10-29T17:59:45.1799661-05:00  [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T17:59:45.2031163-05:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T17:59:45.5212867-05:00 0HL8V42VN6U5S:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/   (ca22a1cb)
+2017-10-29T17:59:45.8370383-05:00 0HL8V42VN6U5S:00000001 [INF] Executing action method "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T17:59:48.2656976-05:00 0HL8V42VN6U5S:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-10-29T17:59:48.6454598-05:00 0HL8V42VN6U5S:00000001 [INF] Executed action "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" in 2794.973ms (afa2e885)
+2017-10-29T17:59:48.6549185-05:00 0HL8V42VN6U5S:00000001 [INF] Request finished in 3154.1735ms 200 text/html; charset=utf-8 (791a596a)
+2017-10-29T17:59:48.6635941-05:00 0HL8V42VN6U5U:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js?v=ajYk3T5ee9oQ5zopoX6cocPySVoWHbJn3-EYSXCtJlI   (ca22a1cb)
+2017-10-29T17:59:55.6295549-05:00  [INF] webpack built 767193c3e4a8c8d2b22b in 12190ms (f70e5286)
+2017-10-29T17:59:55.7541260-05:00  [ERR] Hash: 767193c3e4a8c8d2b22b
+Version: webpack 3.6.0
+Time: 12190ms
+                               Asset     Size  Chunks                    Chunk Names
+e10af218b941826ea360d7554688d721.png  32.6 kB          [emitted]         
+                      main-client.js  3.27 MB       0  [emitted]  [big]  main-client
+                  main-client.js.map  3.93 MB       0  [emitted]         main-client
+   [1] external "vendor_f3a2d9798b215f50864c" 42 bytes {0} [not cacheable]
+  [47] delegated ./node_modules/bootstrap/dist/js/npm.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [80] multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot.browser.ts 52 bytes {0} [built]
+  [81] delegated ./node_modules/event-source-polyfill/eventsource.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [82] (webpack)-hot-middleware/client.js?path=__webpack_hmr&dynamicPublicPath=true 7.04 kB {0} [built]
+  [83] delegated ./node_modules/webpack/buildin/module.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [84] ./node_modules/querystring-es3/index.js 127 bytes {0} [built]
+  [87] ./node_modules/strip-ansi/index.js 161 bytes {0} [built]
+  [89] (webpack)-hot-middleware/client-overlay.js 1.82 kB {0} [built]
+  [94] (webpack)-hot-middleware/process-update.js 3.87 kB {0} [built]
+  [95] ./ClientApp/boot.browser.ts 1.29 kB {0} [built]
+  [96] delegated ./node_modules/core-js/client/shim.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [97] delegated ./node_modules/web-animations-js/web-animations.min.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [98] ./node_modules/zone.js/dist/zone.js 119 kB {0} [built]
+ [100] ./node_modules/@angular/platform-browser-dynamic/@angular/platform-browser-dynamic.es5.js 5.88 kB {0} [built]
+    + 260 hidden modules
+
+ERROR in [at-loader] ./ClientApp/app/components/app.component.spec.ts:81:20 
+    TS2339: Property 'appTitle' does not exist on type 'AppComponent'. (1652a7ba)
+2017-10-29T17:59:55.9009171-05:00 0HL8V42VN6U5U:00000001 [INF] Request finished in 7241.4384ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-10-29T17:59:56.1874870-05:00  [INF] webpack building... (478286db)
+2017-10-29T17:59:56.8552613-05:00 0HL8V42VN6U5S:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js.map   (ca22a1cb)
+2017-10-29T17:59:56.8560566-05:00 0HL8V42VN6U5U:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/__webpack_hmr   (ca22a1cb)
+2017-10-29T17:59:58.6630584-05:00  [INF] webpack built 767193c3e4a8c8d2b22b in 2465ms (9acb916f)
+2017-10-29T17:59:58.7098379-05:00  [ERR] Hash: 767193c3e4a8c8d2b22b
+Version: webpack 3.6.0
+Time: 2465ms
+                               Asset     Size  Chunks         Chunk Names
+e10af218b941826ea360d7554688d721.png  32.6 kB                 
+                      main-client.js  3.27 MB       0  [big]  main-client
+                  main-client.js.map  3.93 MB       0         main-client
+   [1] external "vendor_f3a2d9798b215f50864c" 42 bytes {0} [not cacheable]
+  [47] delegated ./node_modules/bootstrap/dist/js/npm.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [80] multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot.browser.ts 52 bytes {0}
+  [81] delegated ./node_modules/event-source-polyfill/eventsource.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [82] (webpack)-hot-middleware/client.js?path=__webpack_hmr&dynamicPublicPath=true 7.04 kB {0}
+  [83] delegated ./node_modules/webpack/buildin/module.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [84] ./node_modules/querystring-es3/index.js 127 bytes {0}
+  [87] ./node_modules/strip-ansi/index.js 161 bytes {0}
+  [89] (webpack)-hot-middleware/client-overlay.js 1.82 kB {0}
+  [94] (webpack)-hot-middleware/process-update.js 3.87 kB {0}
+  [95] ./ClientApp/boot.browser.ts 1.29 kB {0} [built]
+  [96] delegated ./node_modules/core-js/client/shim.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [97] delegated ./node_modules/web-animations-js/web-animations.min.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [98] ./node_modules/zone.js/dist/zone.js 119 kB {0}
+ [100] ./node_modules/@angular/platform-browser-dynamic/@angular/platform-browser-dynamic.es5.js 5.88 kB {0}
+    + 260 hidden modules
+
+ERROR in [at-loader] ./ClientApp/app/components/app.component.spec.ts:81:20 
+    TS2339: Property 'appTitle' does not exist on type 'AppComponent'. (85fdb4aa)
+2017-10-29T17:59:58.7615219-05:00 0HL8V42VN6U5S:00000002 [INF] Request finished in 1930.3309ms 200 application/json; charset=UTF-8 (791a596a)
+2017-10-29T17:59:58.8211200-05:00 0HL8V42VN6U5S:00000003 [INF] Request starting HTTP/1.1 HEAD http://localhost:57737/dist/webpack.config.js   (ca22a1cb)
+2017-10-29T17:59:58.8591051-05:00 0HL8V42VN6U5S:00000003 [INF] Request finished in 37.1039ms 404  (791a596a)
+2017-10-29T17:59:58.8640232-05:00 0HL8V42VN6U5S:00000004 [INF] Request starting HTTP/1.1 HEAD http://localhost:57737/webpack.config.js   (ca22a1cb)
+2017-10-29T17:59:58.9097052-05:00 0HL8V42VN6U5S:00000004 [INF] Request finished in 46.025ms 404  (791a596a)
+2017-10-29T18:00:02.7038927-05:00 0HL8V42VN6U5S:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js.map   (ca22a1cb)
+2017-10-29T18:00:02.7813702-05:00 0HL8V42VN6U5S:00000005 [INF] Request finished in 77.2131ms 200 application/json; charset=UTF-8 (791a596a)
+2017-10-29T18:01:36.4047349-05:00  [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=Quick_Application2 " (9958f5bb)
+2017-10-29T18:01:37.4806081-05:00  [INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T18:01:37.4849107-05:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T18:01:37.4903792-05:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2017-10-29T18:01:37.5155696-05:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2017-10-29T18:01:37.6651695-05:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T18:01:37.7063661-05:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T18:01:38.1426218-05:00 0HL8V4418GU2R:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/   (ca22a1cb)
+2017-10-29T18:01:38.4232661-05:00 0HL8V4418GU2R:00000001 [INF] Executing action method "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T18:01:40.7901694-05:00 0HL8V4418GU2R:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-10-29T18:01:41.0844424-05:00 0HL8V4418GU2R:00000001 [INF] Executed action "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" in 2670.3056ms (afa2e885)
+2017-10-29T18:01:41.1057361-05:00 0HL8V4418GU2R:00000001 [INF] Request finished in 2976.7717ms 200 text/html; charset=utf-8 (791a596a)
+2017-10-29T18:01:41.1213174-05:00 0HL8V4418GU2R:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js?v=EBUGlE72IETkfe0h0UYbW5keV7SWyJnCGId40XMpbd8   (ca22a1cb)
+2017-10-29T18:01:47.8391913-05:00  [INF] webpack built 7b97165831a9e830c5d6 in 11834ms (ff297bdf)
+2017-10-29T18:01:47.9669350-05:00  [ERR] Hash: 7b97165831a9e830c5d6
+Version: webpack 3.6.0
+Time: 11834ms
+                               Asset     Size  Chunks                    Chunk Names
+e10af218b941826ea360d7554688d721.png  32.6 kB          [emitted]         
+                      main-client.js  3.27 MB       0  [emitted]  [big]  main-client
+                  main-client.js.map  3.93 MB       0  [emitted]         main-client
+   [1] external "vendor_f3a2d9798b215f50864c" 42 bytes {0} [not cacheable]
+  [47] delegated ./node_modules/bootstrap/dist/js/npm.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [80] multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot.browser.ts 52 bytes {0} [built]
+  [81] delegated ./node_modules/event-source-polyfill/eventsource.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [82] (webpack)-hot-middleware/client.js?path=__webpack_hmr&dynamicPublicPath=true 7.04 kB {0} [built]
+  [83] delegated ./node_modules/webpack/buildin/module.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [84] ./node_modules/querystring-es3/index.js 127 bytes {0} [built]
+  [87] ./node_modules/strip-ansi/index.js 161 bytes {0} [built]
+  [89] (webpack)-hot-middleware/client-overlay.js 1.82 kB {0} [built]
+  [94] (webpack)-hot-middleware/process-update.js 3.87 kB {0} [built]
+  [95] ./ClientApp/boot.browser.ts 1.29 kB {0} [built]
+  [96] delegated ./node_modules/core-js/client/shim.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [97] delegated ./node_modules/web-animations-js/web-animations.min.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [98] ./node_modules/zone.js/dist/zone.js 119 kB {0} [built]
+ [100] ./node_modules/@angular/platform-browser-dynamic/@angular/platform-browser-dynamic.es5.js 5.88 kB {0} [built]
+    + 260 hidden modules
+
+ERROR in [at-loader] ./ClientApp/app/components/carousel/carousel.component.spec.ts:5:1 
+    TS2304: Cannot find name 'describe'.
+
+ERROR in [at-loader] ./ClientApp/app/components/carousel/carousel.component.spec.ts:9:3 
+    TS2304: Cannot find name 'beforeEach'.
+
+ERROR in [at-loader] ./ClientApp/app/components/carousel/carousel.component.spec.ts:16:3 
+    TS2304: Cannot find name 'beforeEach'.
+
+ERROR in [at-loader] ./ClientApp/app/components/carousel/carousel.component.spec.ts:22:3 
+    TS2304: Cannot find name 'it'.
+
+ERROR in [at-loader] ./ClientApp/app/components/carousel/carousel.component.spec.ts:23:5 
+    TS2304: Cannot find name 'expect'.
+
+ERROR in [at-loader] ./ClientApp/app/components/hidive/hidive.component.spec.ts:5:1 
+    TS2304: Cannot find name 'describe'.
+
+ERROR in [at-loader] ./ClientApp/app/components/hidive/hidive.component.spec.ts:9:3 
+    TS2304: Cannot find name 'beforeEach'.
+
+ERROR in [at-loader] ./ClientApp/app/components/hidive/hidive.component.spec.ts:16:3 
+    TS2304: Cannot find name 'beforeEach'.
+
+ERROR in [at-loader] ./ClientApp/app/components/hidive/hidive.component.spec.ts:22:3 
+    TS2304: Cannot find name 'it'.
+
+ERROR in [at-loader] ./ClientApp/app/components/hidive/hidive.component.spec.ts:23:5 
+    TS2304: Cannot find name 'expect'.
+
+ERROR in [at-loader] ./ClientApp/app/components/navmenu/navmenu.component.spec.ts:5:1 
+    TS2304: Cannot find name 'describe'.
+
+ERROR in [at-loader] ./ClientApp/app/components/navmenu/navmenu.component.spec.ts:9:3 
+    TS2304: Cannot find name 'beforeEach'.
+
+ERROR in [at-loader] ./ClientApp/app/components/navmenu/navmenu.component.spec.ts:16:3 
+    TS2304: Cannot find name 'beforeEach'.
+
+ERROR in [at-loader] ./ClientApp/app/components/navmenu/navmenu.component.spec.ts:22:3 
+    TS2304: Cannot find name 'it'.
+
+ERROR in [at-loader] ./ClientApp/app/components/navmenu/navmenu.component.spec.ts:23:5 
+    TS2304: Cannot find name 'expect'. (c715dcaf)
+2017-10-29T18:01:48.1132447-05:00 0HL8V4418GU2R:00000002 [INF] Request finished in 6993.079ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-10-29T18:01:48.3119170-05:00  [INF] webpack building... (478286db)
+2017-10-29T18:01:49.2727416-05:00 0HL8V4418GU2R:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js.map   (ca22a1cb)
+2017-10-29T18:01:49.2767224-05:00 0HL8V4418GU2S:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/__webpack_hmr   (ca22a1cb)
+2017-10-29T18:01:51.0823529-05:00  [INF] webpack built 7b97165831a9e830c5d6 in 2753ms (b5b68168)
+2017-10-29T18:01:51.2001789-05:00  [ERR] Hash: 7b97165831a9e830c5d6
+Version: webpack 3.6.0
+Time: 2753ms
+                               Asset     Size  Chunks         Chunk Names
+e10af218b941826ea360d7554688d721.png  32.6 kB                 
+                      main-client.js  3.27 MB       0  [big]  main-client
+                  main-client.js.map  3.93 MB       0         main-client
+   [1] external "vendor_f3a2d9798b215f50864c" 42 bytes {0} [not cacheable]
+  [47] delegated ./node_modules/bootstrap/dist/js/npm.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [80] multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot.browser.ts 52 bytes {0}
+  [81] delegated ./node_modules/event-source-polyfill/eventsource.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [82] (webpack)-hot-middleware/client.js?path=__webpack_hmr&dynamicPublicPath=true 7.04 kB {0}
+  [83] delegated ./node_modules/webpack/buildin/module.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [84] ./node_modules/querystring-es3/index.js 127 bytes {0}
+  [87] ./node_modules/strip-ansi/index.js 161 bytes {0}
+  [89] (webpack)-hot-middleware/client-overlay.js 1.82 kB {0}
+  [94] (webpack)-hot-middleware/process-update.js 3.87 kB {0}
+  [95] ./ClientApp/boot.browser.ts 1.29 kB {0} [built]
+  [96] delegated ./node_modules/core-js/client/shim.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [97] delegated ./node_modules/web-animations-js/web-animations.min.js from dll-reference vendor_f3a2d9798b215f50864c 42 bytes {0} [built]
+  [98] ./node_modules/zone.js/dist/zone.js 119 kB {0}
+ [100] ./node_modules/@angular/platform-browser-dynamic/@angular/platform-browser-dynamic.es5.js 5.88 kB {0}
+    + 260 hidden modules
+
+ERROR in [at-loader] ./ClientApp/app/components/carousel/carousel.component.spec.ts:5:1 
+    TS2304: Cannot find name 'describe'.
+
+ERROR in [at-loader] ./ClientApp/app/components/carousel/carousel.component.spec.ts:9:3 
+    TS2304: Cannot find name 'beforeEach'.
+
+ERROR in [at-loader] ./ClientApp/app/components/carousel/carousel.component.spec.ts:16:3 
+    TS2304: Cannot find name 'beforeEach'.
+
+ERROR in [at-loader] ./ClientApp/app/components/carousel/carousel.component.spec.ts:22:3 
+    TS2304: Cannot find name 'it'.
+
+ERROR in [at-loader] ./ClientApp/app/components/carousel/carousel.component.spec.ts:23:5 
+    TS2304: Cannot find name 'expect'.
+
+ERROR in [at-loader] ./ClientApp/app/components/hidive/hidive.component.spec.ts:5:1 
+    TS2304: Cannot find name 'describe'.
+
+ERROR in [at-loader] ./ClientApp/app/components/hidive/hidive.component.spec.ts:9:3 
+    TS2304: Cannot find name 'beforeEach'.
+
+ERROR in [at-loader] ./ClientApp/app/components/hidive/hidive.component.spec.ts:16:3 
+    TS2304: Cannot find name 'beforeEach'.
+
+ERROR in [at-loader] ./ClientApp/app/components/hidive/hidive.component.spec.ts:22:3 
+    TS2304: Cannot find name 'it'.
+
+ERROR in [at-loader] ./ClientApp/app/components/hidive/hidive.component.spec.ts:23:5 
+    TS2304: Cannot find name 'expect'.
+
+ERROR in [at-loader] ./ClientApp/app/components/navmenu/navmenu.component.spec.ts:5:1 
+    TS2304: Cannot find name 'describe'.
+
+ERROR in [at-loader] ./ClientApp/app/components/navmenu/navmenu.component.spec.ts:9:3 
+    TS2304: Cannot find name 'beforeEach'.
+
+ERROR in [at-loader] ./ClientApp/app/components/navmenu/navmenu.component.spec.ts:16:3 
+    TS2304: Cannot find name 'beforeEach'.
+
+ERROR in [at-loader] ./ClientApp/app/components/navmenu/navmenu.component.spec.ts:22:3 
+    TS2304: Cannot find name 'it'.
+
+ERROR in [at-loader] ./ClientApp/app/components/navmenu/navmenu.component.spec.ts:23:5 
+    TS2304: Cannot find name 'expect'. (7f062bd6)
+2017-10-29T18:01:51.2876755-05:00 0HL8V4418GU2R:00000003 [INF] Request finished in 2030.6801ms 200 application/json; charset=UTF-8 (791a596a)
+2017-10-29T18:02:56.1226776-05:00  [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=Quick_Application2 " (9958f5bb)
+2017-10-29T18:02:57.1975211-05:00  [INF] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T18:02:57.2130182-05:00  [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T18:02:57.2233960-05:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2017-10-29T18:02:57.2538585-05:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2017-10-29T18:02:57.3647887-05:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T18:02:57.3879371-05:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T18:02:57.6592442-05:00 0HL8V44OVL372:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/   (ca22a1cb)
+2017-10-29T18:02:57.9827043-05:00 0HL8V44OVL372:00000001 [INF] Executing action method "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T18:03:00.3791283-05:00 0HL8V44OVL372:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-10-29T18:03:00.9271099-05:00 0HL8V44OVL372:00000001 [INF] Executed action "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" in 2961.5172ms (afa2e885)
+2017-10-29T18:03:00.9395632-05:00 0HL8V44OVL373:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js?v=PDIA886KSOCE7L_sCbwTBMK8d66QCjD6Qa10VxHnKDk   (ca22a1cb)
+2017-10-29T18:03:00.9467974-05:00 0HL8V44OVL372:00000001 [INF] Request finished in 3295.8734ms 200 text/html; charset=utf-8 (791a596a)
+2017-10-29T18:03:07.7620640-05:00  [INF] webpack built 7b97165831a9e830c5d6 in 12032ms (acf55c8f)
+2017-10-29T18:03:07.9678144-05:00 0HL8V44OVL373:00000001 [INF] Request finished in 7028.7463ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-10-29T18:03:08.9788073-05:00 0HL8V44OVL372:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js.map   (ca22a1cb)
+2017-10-29T18:03:08.9817861-05:00 0HL8V44OVL373:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/__webpack_hmr   (ca22a1cb)
+2017-10-29T18:03:09.4132376-05:00 0HL8V44OVL372:00000002 [INF] Request finished in 444.4316ms 200 application/json; charset=UTF-8 (791a596a)
+2017-10-29T18:05:20.5995249-05:00  [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=Quick_Application2 " (9958f5bb)
+2017-10-29T18:05:21.6250455-05:00  [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T18:05:21.6332648-05:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T18:05:21.6380330-05:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2017-10-29T18:05:21.6635561-05:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2017-10-29T18:05:21.8493470-05:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T18:05:21.8858947-05:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T18:05:22.3589035-05:00 0HL8V4643GAI9:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/   (ca22a1cb)
+2017-10-29T18:05:22.6375429-05:00 0HL8V4643GAI9:00000001 [INF] Executing action method "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T18:05:25.0643808-05:00 0HL8V4643GAI9:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-10-29T18:05:25.3443882-05:00 0HL8V4643GAI9:00000001 [INF] Executed action "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" in 2703.2264ms (afa2e885)
+2017-10-29T18:05:25.3490483-05:00 0HL8V4643GAIB:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js?v=PDIA886KSOCE7L_sCbwTBMK8d66QCjD6Qa10VxHnKDk   (ca22a1cb)
+2017-10-29T18:05:25.3628243-05:00 0HL8V4643GAI9:00000001 [INF] Request finished in 3019.6767ms 200 text/html; charset=utf-8 (791a596a)
+2017-10-29T18:05:32.0538649-05:00  [INF] webpack built 7b97165831a9e830c5d6 in 11863ms (6384272b)
+2017-10-29T18:05:32.3308450-05:00 0HL8V4643GAIB:00000001 [INF] Request finished in 6983.0725ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-10-29T18:05:33.2556635-05:00 0HL8V4643GAI9:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js.map   (ca22a1cb)
+2017-10-29T18:05:33.2591217-05:00 0HL8V4643GAIB:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/__webpack_hmr   (ca22a1cb)
+2017-10-29T18:05:33.7091203-05:00 0HL8V4643GAI9:00000002 [INF] Request finished in 472.449ms 200 application/json; charset=UTF-8 (791a596a)
+2017-10-29T18:10:26.5825526-05:00  [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=Quick_Application2 " (9958f5bb)
+2017-10-29T18:10:27.4501131-05:00  [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T18:10:27.4538719-05:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T18:10:27.4579815-05:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2017-10-29T18:10:27.4777936-05:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2017-10-29T18:10:27.5914513-05:00  [INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T18:10:27.6049807-05:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T18:10:27.9573567-05:00 0HL8V48V63DFJ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/   (ca22a1cb)
+2017-10-29T18:10:28.1929571-05:00 0HL8V48V63DFJ:00000001 [INF] Executing action method "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T18:10:30.2117275-05:00 0HL8V48V63DFJ:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-10-29T18:10:30.4765186-05:00 0HL8V48V63DFJ:00000001 [INF] Executed action "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" in 2292.2115ms (afa2e885)
+2017-10-29T18:10:30.4836540-05:00 0HL8V48V63DFJ:00000001 [INF] Request finished in 2539.0637ms 200 text/html; charset=utf-8 (791a596a)
+2017-10-29T18:10:30.4987378-05:00 0HL8V48V63DFJ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js?v=PDIA886KSOCE7L_sCbwTBMK8d66QCjD6Qa10VxHnKDk   (ca22a1cb)
+2017-10-29T18:10:36.1676076-05:00  [INF] webpack built e511b2b7a705dfc374c4 in 9979ms (7d211dff)
+2017-10-29T18:10:36.3733621-05:00 0HL8V48V63DFJ:00000002 [INF] Request finished in 5867.8715ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-10-29T18:10:37.7420490-05:00 0HL8V48V63DFJ:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:57737/api/hidive   (ca22a1cb)
+2017-10-29T18:10:37.7572827-05:00 0HL8V48V63DFK:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js.map   (ca22a1cb)
+2017-10-29T18:10:37.7846717-05:00 0HL8V48V63DFL:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/__webpack_hmr   (ca22a1cb)
+2017-10-29T18:10:37.7992195-05:00 0HL8V48V63DFJ:00000003 [INF] Executing action method "hidive_homework.Controllers.HiDiveController.Get (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T18:10:37.8615946-05:00 0HL8V48V63DFK:00000001 [INF] Request finished in 105.4275ms 200 application/json; charset=UTF-8 (791a596a)
+2017-10-29T18:10:39.5317573-05:00 0HL8V48V63DFJ:00000003 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-10-29T18:10:39.5374427-05:00 0HL8V48V63DFJ:00000003 [INF] Executed action "hidive_homework.Controllers.HiDiveController.Get (Quick_Application2)" in 1739.6351ms (afa2e885)
+2017-10-29T18:10:39.5394314-05:00 0HL8V48V63DFJ:00000003 [INF] Request finished in 1797.1835ms 200 text/plain; charset=utf-8 (791a596a)
+2017-10-29T18:10:43.5606132-05:00 0HL8V48V63DFK:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/   (ca22a1cb)
+2017-10-29T18:10:43.5865612-05:00 0HL8V48V63DFK:00000002 [INF] Executing action method "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T18:10:43.5886584-05:00 0HL8V48V63DFK:00000002 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-10-29T18:10:43.7105498-05:00 0HL8V48V63DFK:00000002 [INF] Executed action "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" in 124.1459ms (afa2e885)
+2017-10-29T18:10:43.7126345-05:00 0HL8V48V63DFK:00000002 [INF] Request finished in 152.2633ms 200 text/html; charset=utf-8 (791a596a)
+2017-10-29T18:10:43.7212069-05:00 0HL8V48V63DFJ:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js?v=-AE-2aHWZLWJqJQvlVyhCm3rrBe9LuyKi8FJaax5uU0   (ca22a1cb)
+2017-10-29T18:10:43.7810156-05:00 0HL8V48V63DFJ:00000004 [INF] Request finished in 59.8922ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-10-29T18:10:44.9487644-05:00 0HL8V48V63DFK:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:57737/api/hidive   (ca22a1cb)
+2017-10-29T18:10:44.9741472-05:00 0HL8V48V63DFJ:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js.map   (ca22a1cb)
+2017-10-29T18:10:44.9770489-05:00 0HL8V48V63DFK:00000003 [INF] Executing action method "hidive_homework.Controllers.HiDiveController.Get (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T18:10:44.9798429-05:00 0HL8V48V63DFM:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/__webpack_hmr   (ca22a1cb)
+2017-10-29T18:10:45.0501363-05:00 0HL8V48V63DFL:00000001 [INF] Request finished in 7252.8746ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-10-29T18:10:45.0869562-05:00 0HL8V48V63DFJ:00000005 [INF] Request finished in 112.7784ms 200 application/json; charset=UTF-8 (791a596a)
+2017-10-29T18:10:45.2562320-05:00 0HL8V48V63DFK:00000003 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-10-29T18:10:45.2594054-05:00 0HL8V48V63DFK:00000003 [INF] Executed action "hidive_homework.Controllers.HiDiveController.Get (Quick_Application2)" in 283.997ms (afa2e885)
+2017-10-29T18:10:45.2615247-05:00 0HL8V48V63DFK:00000003 [INF] Request finished in 312.6097ms 200 text/plain; charset=utf-8 (791a596a)
+2017-10-29T18:12:31.3641283-05:00  [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=Quick_Application2 " (9958f5bb)
+2017-10-29T18:12:32.4430003-05:00  [INF] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T18:12:32.4491177-05:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T18:12:32.4534771-05:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2017-10-29T18:12:32.4765979-05:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2017-10-29T18:12:32.6200908-05:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T18:12:32.6370703-05:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T18:12:32.8715722-05:00 0HL8V4A4DE30D:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/   (ca22a1cb)
+2017-10-29T18:12:33.0744556-05:00 0HL8V4A4DE30D:00000001 [INF] Executing action method "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T18:12:35.1309097-05:00 0HL8V4A4DE30D:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-10-29T18:12:35.4088189-05:00 0HL8V4A4DE30D:00000001 [INF] Executed action "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" in 2337.9729ms (afa2e885)
+2017-10-29T18:12:35.4222585-05:00 0HL8V4A4DE30D:00000001 [INF] Request finished in 2558.3805ms 200 text/html; charset=utf-8 (791a596a)
+2017-10-29T18:12:35.4297757-05:00 0HL8V4A4DE30E:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js?v=-AE-2aHWZLWJqJQvlVyhCm3rrBe9LuyKi8FJaax5uU0   (ca22a1cb)
+2017-10-29T18:12:41.2543163-05:00  [INF] webpack built 193ae4945281ba236f9c in 10272ms (41ea3cc1)
+2017-10-29T18:12:41.4505878-05:00 0HL8V4A4DE30E:00000001 [INF] Request finished in 6025.6086ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-10-29T18:12:42.8201208-05:00 0HL8V4A4DE30D:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/api/hidive   (ca22a1cb)
+2017-10-29T18:12:42.8668988-05:00 0HL8V4A4DE30E:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js.map   (ca22a1cb)
+2017-10-29T18:12:42.8699920-05:00 0HL8V4A4DE30F:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/__webpack_hmr   (ca22a1cb)
+2017-10-29T18:12:42.9447124-05:00 0HL8V4A4DE30D:00000002 [INF] Executing action method "hidive_homework.Controllers.HiDiveController.Get (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T18:12:42.9942456-05:00 0HL8V4A4DE30E:00000002 [INF] Request finished in 148.0321ms 200 application/json; charset=UTF-8 (791a596a)
+2017-10-29T18:12:44.7092572-05:00 0HL8V4A4DE30D:00000002 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-10-29T18:12:44.7151173-05:00 0HL8V4A4DE30D:00000002 [INF] Executed action "hidive_homework.Controllers.HiDiveController.Get (Quick_Application2)" in 1799.1799ms (afa2e885)
+2017-10-29T18:12:44.7170567-05:00 0HL8V4A4DE30D:00000002 [INF] Request finished in 1896.9901ms 200 text/plain; charset=utf-8 (791a596a)
+2017-10-29T18:13:13.5722906-05:00  [INF] webpack building... (478286db)
+2017-10-29T18:13:15.3093206-05:00  [INF] webpack built 193ae4945281ba236f9c in 1707ms (7ac5f70d)
+2017-10-29T18:13:25.1975195-05:00  [INF] webpack building... (478286db)
+2017-10-29T18:13:26.8052615-05:00  [INF] webpack built 193ae4945281ba236f9c in 1594ms (eb9dc332)

@@ -13908,9 +13908,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\Users\\Harrison\\Documents\\Visual Studio 2017\\Projects\\Quick Application2\\Quick Application2\\Quick_Application2\\Quick_Application2.csproj",
       "projectName": "Quick_Application2",
@@ -13922,6 +13919,7 @@
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+        "C:\\Users\\Harrison\\Documents\\Visual Studio 2017\\Projects\\Quick Application2\\Quick Application2\\Quick_Application2\\NuGet.Config",
         "C:\\Users\\Harrison\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -13930,7 +13928,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.myget.org/F/aspnet-contrib/api/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -13950,58 +13949,58 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "MongoDB.Driver": {
-            "target": "Package",
-            "version": "2.4.4"
-          },
-          "OpenIddict": {
-            "target": "Package",
-            "version": "2.0.0-rc1-0669"
-          },
-          "MailKit": {
-            "target": "Package",
-            "version": "1.18.1.1"
-          },
-          "OpenIddict.Mvc": {
-            "target": "Package",
-            "version": "2.0.0-rc1-0669"
-          },
-          "FluentValidation.AspNetCore": {
-            "target": "Package",
-            "version": "7.1.1"
-          },
-          "OpenIddict.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "2.0.0-rc1-0669"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
           },
-          "Swashbuckle.AspNetCore": {
+          "AspNet.Security.OAuth.Validation": {
             "target": "Package",
-            "version": "1.0.0"
+            "version": "2.0.0-rc1-0286"
           },
           "AutoMapper": {
             "target": "Package",
             "version": "6.1.1"
           },
+          "FluentValidation.AspNetCore": {
+            "target": "Package",
+            "version": "7.1.1"
+          },
+          "MailKit": {
+            "target": "Package",
+            "version": "1.18.1.1"
+          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "2.0.0"
+          },
+          "MongoDB.Driver": {
+            "target": "Package",
+            "version": "2.4.4"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "10.0.3"
+          },
+          "OpenIddict": {
+            "target": "Package",
+            "version": "2.0.0-rc1-0669"
+          },
+          "OpenIddict.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "2.0.0-rc1-0669"
+          },
+          "OpenIddict.Mvc": {
+            "target": "Package",
+            "version": "2.0.0-rc1-0669"
           },
           "Serilog.Extensions.Logging.File": {
             "target": "Package",
             "version": "1.1.0"
           },
-          "AspNet.Security.OAuth.Validation": {
+          "Swashbuckle.AspNetCore": {
             "target": "Package",
-            "version": "2.0.0-rc1-0286"
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "10.0.3"
+            "version": "1.0.0"
           }
         },
         "imports": [
