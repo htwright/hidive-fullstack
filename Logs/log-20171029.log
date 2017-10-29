@@ -1,0 +1,66 @@
+2017-10-29T17:22:22.8236866-05:00  [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=Quick_Application2 " (9958f5bb)
+2017-10-29T17:22:24.4568011-05:00  [INF] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T17:22:24.4788513-05:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2017-10-29T17:22:24.4904071-05:00  [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2017-10-29T17:22:24.5363529-05:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2017-10-29T17:22:24.6247854-05:00  [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T17:22:24.6351330-05:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2017-10-29T17:22:25.1437026-05:00 0HL8V3E415SCV:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/   (ca22a1cb)
+2017-10-29T17:22:25.5237088-05:00 0HL8V3E415SCV:00000001 [INF] Executing action method "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T17:22:27.6305454-05:00 0HL8V3E415SCV:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-10-29T17:22:28.0337199-05:00 0HL8V3E415SCV:00000001 [INF] Executed action "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" in 2505.0236ms (afa2e885)
+2017-10-29T17:22:28.0617646-05:00 0HL8V3E415SD1:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/vendor.css?v=kGfGFGbz8olx--IMi3BPCxJqgeiXICowStEE622t4tU   (ca22a1cb)
+2017-10-29T17:22:28.0642669-05:00 0HL8V3E415SD0:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js?v=kuskVh_pGCN1nyLx9Gk5nq1mKX0qXL-6NA2hMDO8Ciw   (ca22a1cb)
+2017-10-29T17:22:28.0651716-05:00 0HL8V3E415SD2:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/vendor.js?v=sbWtCnxjys1B8wtYhSk1bzw3Ey-oUR7PUdCruKbu-PQ   (ca22a1cb)
+2017-10-29T17:22:28.0691424-05:00 0HL8V3E415SCV:00000001 [INF] Request finished in 2948.8074ms 200 text/html; charset=utf-8 (791a596a)
+2017-10-29T17:22:33.2768131-05:00  [INF] webpack built dd7699c0646550933ad9 in 10986ms (2405a9c8)
+2017-10-29T17:22:33.4434017-05:00 0HL8V3E415SD2:00000001 [INF] Sending file. Request path: '"/dist/vendor.js"'. Physical path: '"C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\wwwroot\dist\vendor.js"' (27b0a520)
+2017-10-29T17:22:33.4450057-05:00 0HL8V3E415SD1:00000001 [INF] Sending file. Request path: '"/dist/vendor.css"'. Physical path: '"C:\Users\Harrison\Documents\Visual Studio 2017\Projects\Quick Application2\Quick Application2\Quick_Application2\wwwroot\dist\vendor.css"' (27b0a520)
+2017-10-29T17:22:33.5203626-05:00 0HL8V3E415SD2:00000001 [INF] Request finished in 5480.849ms 200 application/javascript (791a596a)
+2017-10-29T17:22:33.5329994-05:00 0HL8V3E415SD1:00000001 [INF] Request finished in 5493.2934ms 200 text/css (791a596a)
+2017-10-29T17:22:33.5724707-05:00 0HL8V3E415SD0:00000001 [INF] Request finished in 5530.1497ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-10-29T17:22:34.9744728-05:00 0HL8V3E415SCV:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js.map   (ca22a1cb)
+2017-10-29T17:22:35.0221240-05:00 0HL8V3E415SCV:00000002 [INF] Request finished in 47.5038ms 200 application/json; charset=UTF-8 (791a596a)
+2017-10-29T17:22:35.0497613-05:00 0HL8V3E415SD1:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/__webpack_hmr   (ca22a1cb)
+2017-10-29T17:22:35.0897172-05:00 0HL8V3E415SD2:00000002 [INF] Request starting HTTP/1.1 HEAD http://localhost:57737/dist/webpack.config.js   (ca22a1cb)
+2017-10-29T17:22:35.1050558-05:00 0HL8V3E415SD2:00000002 [INF] Request finished in 15.6801ms 404  (791a596a)
+2017-10-29T17:22:35.1086778-05:00 0HL8V3E415SD0:00000002 [INF] Request starting HTTP/1.1 HEAD http://localhost:57737/webpack.config.js   (ca22a1cb)
+2017-10-29T17:22:35.1140970-05:00 0HL8V3E415SD0:00000002 [INF] Request finished in 5.308ms 404  (791a596a)
+2017-10-29T17:23:17.0109957-05:00 0HL8V3E415SCV:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:57737/hidive   (ca22a1cb)
+2017-10-29T17:23:17.0388299-05:00 0HL8V3E415SCV:00000003 [INF] Executing action method "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T17:23:17.0681013-05:00 0HL8V3E415SCV:00000003 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-10-29T17:23:17.1921109-05:00 0HL8V3E415SCV:00000003 [INF] Executed action "Quick_Application2.Controllers.HomeController.Index (Quick_Application2)" in 153.6314ms (afa2e885)
+2017-10-29T17:23:17.1950004-05:00 0HL8V3E415SCV:00000003 [INF] Request finished in 182.7459ms 200 text/html; charset=utf-8 (791a596a)
+2017-10-29T17:23:17.2042154-05:00 0HL8V3E415SD2:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js?v=AGrIkl0GBV3LYgnKw2ojMxlDLXJwkcTueUEgrRzxGYo   (ca22a1cb)
+2017-10-29T17:23:17.2711987-05:00 0HL8V3E415SD2:00000003 [INF] Request finished in 66.2932ms 200 application/javascript; charset=UTF-8 (791a596a)
+2017-10-29T17:23:18.4741983-05:00 0HL8V3E415SD0:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/main-client.js.map   (ca22a1cb)
+2017-10-29T17:23:18.4892032-05:00 0HL8V3E415SCV:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:57737/dist/__webpack_hmr   (ca22a1cb)
+2017-10-29T17:23:18.5341795-05:00 0HL8V3E415SD0:00000003 [INF] Request finished in 70.6335ms 200 application/json; charset=UTF-8 (791a596a)
+2017-10-29T17:23:18.5847794-05:00 0HL8V3E415SD1:00000002 [INF] Request finished in 43532.0201ms 200 text/event-stream; charset=utf-8 (791a596a)
+2017-10-29T17:23:18.5974435-05:00 0HL8V3E415SD2:00000004 [INF] Request starting HTTP/1.1 HEAD http://localhost:57737/dist/webpack.config.js   (ca22a1cb)
+2017-10-29T17:23:18.6251457-05:00 0HL8V3E415SD2:00000004 [INF] Request finished in 27.559ms 404  (791a596a)
+2017-10-29T17:23:18.6476287-05:00 0HL8V3E415SD0:00000004 [INF] Request starting HTTP/1.1 HEAD http://localhost:57737/webpack.config.js   (ca22a1cb)
+2017-10-29T17:23:18.6724208-05:00 0HL8V3E415SD0:00000004 [INF] Request finished in 45.3804ms 404  (791a596a)
+2017-10-29T17:23:28.7146309-05:00 0HL8V3E415SD2:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:57737/api/hidive   (ca22a1cb)
+2017-10-29T17:23:28.7254376-05:00 0HL8V3E415SD2:00000005 [INF] Executing action method "hidive_homework.Controllers.HiDiveController.Get (Quick_Application2)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-29T17:23:30.5620283-05:00 0HL8V3E415SD2:00000005 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-10-29T17:23:30.5666077-05:00 0HL8V3E415SD2:00000005 [INF] Executed action "hidive_homework.Controllers.HiDiveController.Get (Quick_Application2)" in 1840.8425ms (afa2e885)
+2017-10-29T17:23:30.5683823-05:00 0HL8V3E415SD2:00000005 [INF] Request finished in 1853.7335ms 200 text/plain; charset=utf-8 (791a596a)
+2017-10-29T17:23:32.9943114-05:00 0HL8V3E415SCV:00000004 [INF] Request finished in 14505.6406ms 200 text/event-stream; charset=utf-8 (791a596a)
